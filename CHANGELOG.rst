@@ -12,21 +12,7 @@ This document records the main changes to the ivts code.
 
 Added
 ^^^^^
-* A thing we added.
+First push:
 
-.. x.y.z (unreleased)
-.. ------------------
-..
-.. A short description
-..
-.. Added
-.. ^^^^^
-.. * TBD
-..
-.. Changed
-.. ^^^^^^^
-.. * TBD
-..
-.. Fixed
-.. ^^^^^
-.. * TBD
+* basic functionality: :ref:`ivts.ivts.IVTSDist`, :ref:`ivts.dists.Linear`, :ref:`ivts.dists.BoundedPowerlaw`
+* documentation

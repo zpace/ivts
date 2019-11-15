@@ -6,10 +6,18 @@ ivts Reference
 
 .. _api-main:
 
-Main
+ivts
 ----
 
-.. automodule:: ivts.main
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. automodule:: ivts.ivts
+  :members:
+  :undoc-members:
+  :show-inheritance:
+
+dists
+-----
+
+.. automodule:: ivts.dists
+  :members:
+  :undoc-members:
+  :show-inheritance:

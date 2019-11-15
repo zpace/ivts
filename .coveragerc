@@ -6,3 +6,4 @@ omit =
     python/ivts/etc/*
     python/ivts/utils/*
     python/ivts/tests/*
+    python/ivts/core/*

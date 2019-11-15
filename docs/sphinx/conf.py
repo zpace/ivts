@@ -118,6 +118,17 @@ autodoc_member_order = 'groupwise'
 
 napoleon_use_rtype = False
 napoleon_use_ivar = True
+napoleon_google_docstring = True
+napoleon_numpy_docstring = True
+napoleon_include_init_with_doc = False
+napoleon_include_private_with_doc = False
+napoleon_include_special_with_doc = True
+napoleon_use_admonition_for_examples = False
+napoleon_use_admonition_for_notes = False
+napoleon_use_admonition_for_references = False
+napoleon_use_ivar = False
+napoleon_use_param = True
+napoleon_use_rtype = True
 
 rst_epilog = """
 .. |numpy_array| replace:: Numpy array
@@ -139,7 +150,7 @@ html_sidebars = {}
 # documentation.
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "SDSS: {0}".format(project),
+    'navbar_title': "{0}".format(project),
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Site",

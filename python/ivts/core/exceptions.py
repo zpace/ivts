@@ -10,7 +10,6 @@
 
 from __future__ import print_function, division, absolute_import
 
-
 class IvtsError(Exception):
     """A custom core Ivts exception"""
 
@@ -20,6 +19,26 @@ class IvtsError(Exception):
             if not message else message
 
         super(IvtsError, self).__init__(message)
+
+
+class IvtsDomainError(IvtsError):
+    """Exception for invalid domain
+    """
+    def __init__(self, message=None):
+        message = 'Bad domain' \
+            if not message else message
+
+        super(IvtsDomainError, self).__init__(message)
+
+
+class IvtsNonConvergentDomainError(IvtsError):
+    """Exception for domain invalid because of CDF nonconvergence
+    """
+    def __init__(self, message=None):
+        message = 'Domain does not allow CDF convergence' \
+            if not message else message
+
+        super(IvtsNonConvergentDomainError, self).__init__(message)
 
 
 class IvtsNotImplemented(IvtsError):

@@ -1,5 +1,6 @@
 
-# numpy
+numpy
+pyyaml
 # astropy
 pyyaml
 pygments

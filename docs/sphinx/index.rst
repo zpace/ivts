@@ -1,21 +1,21 @@
 .. role:: header_no_toc
   :class: class_header_no_toc
 
-.. title:: Welcome to ivts's documentation!
+.. title:: ivts: inverse-transform sampling for the masses
 
 :tocdepth: 2
 
-.. rubric:: :header_no_toc:`Welcome to ivts's documentation!`
+.. rubric:: :header_no_toc:`ivts`
 
-This is the Sphinx documentation for the SDSS Python product ivts
+`ivts` is a python library designed to help you sample from weird distributions!
 
 Introduction
 ------------
 
-A description of the package can go here.
+`ivts` supplies one base class, :class:`ivts.ivts.IVTSDist`, that transforms a number on :math:`(0, 1)` into a number drawn from a probability distribution corresponding to a user-supplied `inverse cumulative distribution function <https://en.wikipedia.org/wiki/Inverse_transform_sampling>`_.
 
 * :ref:`What's new in ivts? <changelog>`
-* :ref:`Introduction to ivts <intro>`
+* :ref:`Getting started with ivts <quickstart>`
 
 Reference
 ---------
