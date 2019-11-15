@@ -8,7 +8,7 @@ Inverse-transform sampling of probability distribution
 .. |docs| image:: https://readthedocs.org/projects/sdss-ivts/badge/?version=latest
     :alt: Documentation Status
     :scale: 100%
-    :target: https://sdss-ivts.readthedocs.io/en/latest/?badge=latest
+    :target: https://ivts.readthedocs.io/en/latest/?badge=latest
 
 .. |travis| image:: https://travis-ci.org/zpace/ivts.svg?branch=master
    :target: https://travis-ci.org/zpace/ivts
